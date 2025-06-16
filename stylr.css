@@ -40,19 +40,19 @@
   }
   
   .header a span {
-    color: #ff774d; /* Orange tone */
+    color: #00bfff; /* Orange tone */
     font-weight: bold;
-    text-shadow: 0 0 30px #ff774d;
+    text-shadow: 0 0 30px #00bfff;
   }
   
   .header nav a:hover,
   .header nav a:focus{
-    color: #ff774d;
-    border-bottom: 3px solid #ff774d;
+    color: #00bfff;
+    border-bottom: 3px solid #00bfff;
   }
   .header nav a.active {
-    color: #ff774d;
-    border-bottom: #ff774d solid 3px ;
+    color: #00bfff;
+    border-bottom: #00bfff solid 3px ;
   }
   
   /*section princess*/
@@ -86,13 +86,13 @@
       line-height:1;
     }
     .job {
-    color: #ff774d;
+    color: #00bfff;
     font-weight: bold;
-    text-shadow: 0 0 30px #ff774d;
+    text-shadow: 0 0 30px #00bfff;
   }
     .name {
-    color: #ff774d;
-    text-shadow: 0 0 30px #ff774d;
+    color: #00bfff;
+    text-shadow: 0 0 30px #00bfff;
   }
   .image {
     flex:1;
@@ -105,12 +105,12 @@
     top:3rem;
     width:32vw;
     border-radius:50%;
-    box-shadow:0 0 25px #ff774d;
+    box-shadow:0 0 25px #00bfff;
     cursor:pointer;
     transition:0.5;
   }
   .img1:hover{
-    box-shadow:0 0 25px #ff774d,0 0 50px #ff774d,0 0 100px #ff774d;
+    box-shadow:0 0 25px #00bfff,0 0 50px #00bfff,0 0 100px #00bfff;
   }
 
     .text p {
@@ -124,19 +124,19 @@
   align-items: center;
   font-size: 24px; 
   text-decoration: none;
-  color: #ff774d;
+  color: #00bfff;
   width:3rem;
   height:3rem;
-  border: 2px solid #ff774d;
+  border: 2px solid #00bfff;
   border-radius: 50%;
   transition: 0.5s;
   padding: 8px;
   margin:0 8px;
 }  
 .text a:hover{
-  background: #ff774d;
+  background: #00bfff;
   color:black;
-  box-shadow: 0 0 10px #ff774d;
+  box-shadow: 0 0 10px #00bfff;
 } 
 .socials {
   display: flex;
@@ -156,14 +156,14 @@
   }
   fieldset{
       border-radius: 3%;
-      border: 1px solid #ff774d;
-      box-shadow: 0 0 30px #ff774d;
+      border: 1px solid #00bfff;
+      box-shadow: 0 0 30px #00bfff;
       margin: 10%;
       margin-bottom: 10px;
       padding: 5%;
   }
  fieldset:hover{
-    box-shadow:0 0 30px #ff774d,0 0 50px #ff774d,0 0 100px #ff774d;
+    box-shadow:0 0 30px #00bfff,0 0 50px #00bfff,0 0 100px #00bfff;
   }
 h3{
     font-size: 30px;
@@ -183,17 +183,17 @@ h3{
 
 .loader-text {
   font-size: 2.5rem;
-  color: #ff774d;
-  text-shadow: 0 0 10px #ff774d;
+  color: #00bfff;
+  text-shadow: 0 0 10px #00bfff;
 }
 .loader-text:hover{
-  text-shadow: 0 0 10px #ff774d, 0 0 20px #ff774d, 0 0 30px #ff774d;
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
 }
 /* Spinner*/
 .spinner {
   width: 30px;
   height: 30px;
-  border: 4px solid #ff774d;
+  border: 4px solid #00bfff;
   border-top: 4px solid transparent;
   border-radius: 50%;
   animation: spin 1s linear infinite;
@@ -211,8 +211,8 @@ h3{
   text-align: center;
 }
 span{
-  color:#ff774d;
-  text-shadow: 0 0 8px #ff774d
+  color:#00bfff;
+  text-shadow: 0 0 8px #00bfff
 }
 form .inputs {
   display: flex;
@@ -227,8 +227,8 @@ form .inputs {
 }
 .informations input {
   padding: 1rem;
-  border-color:#ff774d ;
-  box-shadow:0 0 10px #ff774d;
+  border-color:#00bfff ;
+  box-shadow:0 0 10px #00bfff;
   border-radius: 8px;
   background: black;
   color: #fff;
@@ -236,7 +236,7 @@ form .inputs {
   transition: 0.3s;
 }
 .informations input:focus {
-  border: 2px solid #ff774d;
+  border: 2px solid #00bfff;
   background: #1a1a1a;
 }
 .message {
@@ -247,8 +247,8 @@ form .inputs {
 }
 .message textarea {
   padding: 1rem;
-  border-color: #ff774d;
-  box-shadow:0 0 10px #ff774d;
+  border-color: #00bfff;
+  box-shadow:0 0 10px #00bfff;
   border-radius: 8px;
   background: black;
   color: #fff;
@@ -258,7 +258,7 @@ form .inputs {
   transition: 0.3s;
 }
 .message textarea:focus {
-  border: 2px solid #ff774d;
+  border: 2px solid #00bfff;
   background: #1a1a1a;
 }
 .message button {
@@ -266,7 +266,7 @@ form .inputs {
   padding: 0.8rem 2rem;
   border: none;
   border-radius: 10px;
-  background-color: #ff774d;
+  background-color: #00bfff;
   color: #000;
   font-size: 1rem;
   cursor: pointer;
@@ -275,8 +275,8 @@ form .inputs {
 
 .message button:hover {
   background-color: #fff;
-  color: #ff774d;
-  box-shadow: 0 0 10px #ff774d;
+  color: #00bfff;
+  box-shadow: 0 0 10px #00bfff;
 }
 p{
   text-align: center;
