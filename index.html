@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylr.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="amira" href="#home" title="Go to home"
+        >Amira <span>Ben hssine</span></a
+      >
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#ser">services</a>
+        <a href="#Loading">projects</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+    <section class="princess" id="home">
+      <div class="text">
+        <h1>HI, it's <span class="name">Amira</span></h1>
+        <h4>I'm a <span class="job">Frontend Designer</span></h4>
+        <p>
+          I am a creative and detail-oriented Frontend Designer with a passion
+          for building clean, responsive, and user-friendly web interfaces. I
+          focus on combining aesthetics with functionality to create seamless
+          digital experiences. My work reflects a strong sense of design, a
+          solid understanding of modern web technologies, and a constant desire
+          to grow and innovate. I'm always excited to take on new challenges
+          that allow me to bring ideas to life through code and design.
+        </p>
+        <div class="socials">
+          <a href="https://github.com/titanknis" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ben-haissne-amira-0067b7323/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i></a
+          ><br />
+        </div>
+      </div>
+      <div class="image">
+        <img class="img1" src="gone.jpg" />
+      </div>
+    </section>
+    <section class="services">
+      <h1 id="ser">Services</h1>
+      <div class="skills">
+        <fieldset>
+          <h3>Frontend Developement</h3>
+          <p>
+            As a Frontend Developer, I specialize in building responsive,
+            user-friendly, and accessible web interfaces using modern
+            technologies like HTML, CSS, JavaScript, and frameworks such as
+            React or Vue.js. I focus on delivering pixel-perfect designs that
+            work seamlessly across devices and browsers. My goal is to turn
+            ideas and designs into high-performing, visually engaging websites
+            that offer smooth and intuitive user experiences.
+          </p>
+        </fieldset>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="loader-container">
+        <div class="spinner"></div>
+        <h1 class="loader-text" id="Loading">Loading</h1>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-head">
+        <h1>Contact <span>Me</span></h1>
+      </div>
+      <form action="">
+        <div class="inputs">
+          <div class="informations">
+            <input type="text" placeholder="Full Name" />
+            <div id="errPrenom" class="error"></div>
+            <input type="email" placeholder="Email" />
+            <div id="errEmail" class="error"></div>
+            <input type="text" placeholder="Phone Number" />
+            <div id="errnum" class="error"></div>
+            <input type="text" placeholder="Subject" />
+            <div id="errsub" class="error"></div>
+          </div>
+          <div class="message">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="1"
+              placeholder="Your Message"
+            ></textarea>
+            <button id="btn">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <p>Ⓒ Amira Ben Hssine | All Rights Reserved</p>
+    </footer>
+    <script src="code.js" defer></script>
+  </body>
+</html>

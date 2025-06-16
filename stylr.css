@@ -1,0 +1,334 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header/Navbar */
+  .header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #000;
+    width: 100%;
+    z-index: 1000;
+  }
+  .amira{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: 0.3s
+  }
+  .header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .header a span {
+    color: #ff774d; /* Orange tone */
+    font-weight: bold;
+    text-shadow: 0 0 30px #ff774d;
+  }
+  
+  .header nav a:hover,
+  .header nav a:focus{
+    color: #ff774d;
+    border-bottom: 3px solid #ff774d;
+  }
+  .header nav a.active {
+    color: #ff774d;
+    border-bottom: #ff774d solid 3px ;
+  }
+  
+  /*section princess*/
+  
+  section{
+    min-height:100vh;
+    padding:10rem 12% 10rem;}
+  .princess{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    }
+   .text{
+     flex:1;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      margin-top:3rem;
+    }
+    .text h4{
+      margin-bottom:2rem;
+      margin-top:1rem;
+      font-size:2rem;
+    }
+    .text h1{
+      margin-top:1.5rem;
+      font-size:5rem;
+      font-weight:700;
+      line-height:1;
+    }
+    .job {
+    color: #ff774d;
+    font-weight: bold;
+    text-shadow: 0 0 30px #ff774d;
+  }
+    .name {
+    color: #ff774d;
+    text-shadow: 0 0 30px #ff774d;
+  }
+  .image {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    border-radius:50%;
+  }
+  .img1{
+    /*position:relative;*/
+    top:3rem;
+    width:32vw;
+    border-radius:50%;
+    box-shadow:0 0 25px #ff774d;
+    cursor:pointer;
+    transition:0.5;
+  }
+  .img1:hover{
+    box-shadow:0 0 25px #ff774d,0 0 50px #ff774d,0 0 100px #ff774d;
+  }
+
+    .text p {
+      max-width: 600px;
+      color: #ddd;
+      margin-bottom: 30px;
+    }
+  .text a{
+  display:inline-flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 24px; 
+  text-decoration: none;
+  color: #ff774d;
+  width:3rem;
+  height:3rem;
+  border: 2px solid #ff774d;
+  border-radius: 50%;
+  transition: 0.5s;
+  padding: 8px;
+  margin:0 8px;
+}  
+.text a:hover{
+  background: #ff774d;
+  color:black;
+  box-shadow: 0 0 10px #ff774d;
+} 
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+  .services{
+      margin-top: 115px;
+      text-align: center;
+      flex-wrap: wrap;
+      padding-top: 5px;
+  }
+  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;  
+  }
+  fieldset{
+      border-radius: 3%;
+      border: 1px solid #ff774d;
+      box-shadow: 0 0 30px #ff774d;
+      margin: 10%;
+      margin-bottom: 10px;
+      padding: 5%;
+  }
+ fieldset:hover{
+    box-shadow:0 0 30px #ff774d,0 0 50px #ff774d,0 0 100px #ff774d;
+  }
+h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 30px #ff774d50; 
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.loader-text {
+  font-size: 2.5rem;
+  color: #ff774d;
+  text-shadow: 0 0 10px #ff774d;
+}
+.loader-text:hover{
+  text-shadow: 0 0 10px #ff774d, 0 0 20px #ff774d, 0 0 30px #ff774d;
+}
+/* Spinner*/
+.spinner {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #ff774d;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contact-head{
+  text-align: center;
+}
+span{
+  color:#ff774d;
+  text-shadow: 0 0 8px #ff774d
+}
+form .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.informations {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.informations input {
+  padding: 1rem;
+  border-color:#ff774d ;
+  box-shadow:0 0 10px #ff774d;
+  border-radius: 8px;
+  background: black;
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+.informations input:focus {
+  border: 2px solid #ff774d;
+  background: #1a1a1a;
+}
+.message {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.message textarea {
+  padding: 1rem;
+  border-color: #ff774d;
+  box-shadow:0 0 10px #ff774d;
+  border-radius: 8px;
+  background: black;
+  color: #fff;
+  resize: none;
+  min-height: 250px;
+  outline: none;
+  transition: 0.3s;
+}
+.message textarea:focus {
+  border: 2px solid #ff774d;
+  background: #1a1a1a;
+}
+.message button {
+  align-self: flex-start;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff774d;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.message button:hover {
+  background-color: #fff;
+  color: #ff774d;
+  box-shadow: 0 0 10px #ff774d;
+}
+p{
+  text-align: center;
+}
+/* Style général des erreurs */
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  display: none; /* n'affichech l'erreur ken fama erreur */
+}
+
+/* Style des inputs avec erreur */
+input.invalid {
+  border: 1.5px solid red;
+  background-color: #ffe5e5;
+  outline: none;
+}
+
+/* Ajout effet focus mzyen */
+input:focus.invalid {
+  box-shadow: 0 0 4px red;
+}
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .princess {
+      flex-direction: column;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .header {
+        flex-direction: column; /* باش العناصر يكونو تحت بعض */
+        align-items: center;     
+        gap: 1rem;              
+        text-align: center;
+      }
+  
+    .text h1 {
+      font-size: 36px;
+    }
+  
+    .text h4 {
+      font-size: 20px;
+    }
+  
+    .img1 {
+      width: 220px;
+      height: 220px;
+    }
+    form .inputs {
+      flex-direction: column;
+    }
+  }
+  
